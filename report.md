@@ -41,6 +41,27 @@ Link: [http://www.informationisbeautiful.net/visualizations/20th-century-death/]
 
 ![20th Century Death.png](./1276_20th_Century_Death.png)
 
+### Snake Oil Supplements?
+
+Link: [http://www.informationisbeautiful.net/play/snake-oil-supplements/](http://www.informationisbeautiful.net/play/snake-oil-supplements/)
+
+左侧的坐标轴与右侧的筛选是其亮点。
+
+![Snake Oil Supplements](./oil.png)
+
+## 平行坐标轴
+
+### peoplemov.in (IO)
+
+Link: [http://peoplemov.in/](http://peoplemov.in/)
+
+![People Movin](./movin.png)
+
+以线直接相连，用渐变表示这是一根相连的线。
+线的粗细表示流量的大小。
+
+此展现方式亦非常适用于网站流量出入的展示。
+
 ## Etc
 
 ### Jobs Charted by State and Salary
@@ -51,7 +72,7 @@ Link: [http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/](http
 
 ![Jobs](./jobs.png)
 
-### Visualizing MBTA Data
+### Visualizing MBTA Data (IO)
 
 An interactive exploration of Boston's subway system.
 
