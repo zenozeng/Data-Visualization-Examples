@@ -33,6 +33,14 @@ Link: [http://www.informationisbeautiful.net/visualizations/antibiotic-resistanc
 
 ![The Antibiotic Abacus.png](./1276_Antibiotic_Abacus_july14.png)
 
+### 类目关联
+
+Link: [http://datavlab.org/2011/12/15/10 (Flash Required)](http://datavlab.org/2011/12/15/10)
+
+使用范围：复杂关联关系、强调个别的关联。
+
+![CatLinking](./catlinking.png)
+
 ## Etc
 
 ### Jobs Charted by State and Salary
