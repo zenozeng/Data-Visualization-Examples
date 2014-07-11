@@ -37,3 +37,7 @@ h3 {
 p, img {
     margin-left: 4em;
 }
+.caption {
+    font-size: 12px;
+    text-align: right;
+}

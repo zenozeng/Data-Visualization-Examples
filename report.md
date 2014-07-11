@@ -49,11 +49,21 @@ Link: [http://www.informationisbeautiful.net/play/snake-oil-supplements/](http:/
 
 ![Snake Oil Supplements](./oil.png)
 
+### Better force layout node selection
+
+Link: [http://bl.ocks.org/couchand/6420534](http://bl.ocks.org/couchand/6420534)
+
+交互非常有趣，而且拉动对整个团的拖动效果可以直观地让人感受到数据的相关关系。
+
+![force layout node](./force.png)
+
 ## 平行坐标轴
 
 ### peoplemov.in (IO)
 
 Link: [http://peoplemov.in/](http://peoplemov.in/)
+
+适用范围：出入关系
 
 ![People Movin](./movin.png)
 
@@ -62,15 +72,17 @@ Link: [http://peoplemov.in/](http://peoplemov.in/)
 
 此展现方式亦非常适用于网站流量出入的展示。
 
-## Etc
+### worldshapin (IO)
 
-### Jobs Charted by State and Salary
+Link: [http://www.worldshap.in/#/03/US/](http://www.worldshap.in/#/03/US/)
 
-Link: [http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/](http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/)
+使用范围：多维度的数据对比
 
-一个数据与筛选条件轴联动的例子。
+对于一个网站流量系统，可以将多个 site 的众多维度 访客量、驻留时间、跳出率 等因素叠在一起做一个类似的东西
 
-![Jobs](./jobs.png)
+![worldshapin](./worldshapin.png)
+
+## 可拖动轴
 
 ### Visualizing MBTA Data (IO)
 
@@ -97,6 +109,36 @@ Link: [http://mbtaviz.github.io/](http://mbtaviz.github.io/)
 右边那个Avg情况分成两排上为 input ，下为　output 。
 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。
 
+### Jobs Charted by State and Salary
+
+Link: [http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/](http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/)
+
+一个数据与筛选条件轴联动的例子。
+
+![Jobs](./jobs.png)
+
+## 网络图
+
+### Bible Cross-References
+
+Link: [http://www.chrisharrison.net/index.php/Visualizations/BibleViz](http://www.chrisharrison.net/index.php/Visualizations/BibleViz)
+
+注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。
+
+![BibleViz](./BibleVizArc7small.jpg)
+
+### DependencyWheel
+
+Link: [http://redotheweb.com/DependencyWheel/](http://redotheweb.com/DependencyWheel/)
+
+注意悬停一会可以显示其依赖关系。
+
+![wheel1](./wheel1.png)
+
+![wheel2](./wheel2.png)
+
+## Etc
+
 ### Analyzing Presidential Candidate’s Body Language
 
 Link: [http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0](http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0)
@@ -105,3 +147,8 @@ Link: [http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and
 
 ![Obama’s Body Language](./obama.png)
 
+### Piwik
+
+Link: [https://demo.piwik.org/](https://demo.piwik.org/index.php?module=CoreHome&action=index&idSite=7&period=day&date=yesterday#/module=Dashboard&action=embeddedIndex&idSite=7&period=day&date=yesterday&idDashboard=1)
+
+![piwik](./piwik.png)

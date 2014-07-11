@@ -20,14 +20,23 @@
 <li><a href="#the-antibiotic-abacus">The Antibiotic Abacus</a></li>
 <li><a href="#th-century-death">20th Century Death</a></li>
 <li><a href="#snake-oil-supplements">Snake Oil Supplements?</a></li>
+<li><a href="#better-force-layout-node-selection">Better force layout node selection</a></li>
 </ul></li>
 <li><a href="#平行坐标轴">平行坐标轴</a><ul>
 <li><a href="#peoplemov.in-io">peoplemov.in (IO)</a></li>
+<li><a href="#worldshapin-io">worldshapin (IO)</a></li>
+</ul></li>
+<li><a href="#可拖动轴">可拖动轴</a><ul>
+<li><a href="#visualizing-mbta-data-io">Visualizing MBTA Data (IO)</a></li>
+<li><a href="#jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</a></li>
+</ul></li>
+<li><a href="#网络图">网络图</a><ul>
+<li><a href="#bible-cross-references">Bible Cross-References</a></li>
+<li><a href="#dependencywheel">DependencyWheel</a></li>
 </ul></li>
 <li><a href="#etc">Etc</a><ul>
-<li><a href="#jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</a></li>
-<li><a href="#visualizing-mbta-data-io">Visualizing MBTA Data (IO)</a></li>
 <li><a href="#analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</a></li>
+<li><a href="#piwik">Piwik</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -67,21 +76,29 @@
 <div class="figure">
 <img src="./oil.png" alt="Snake Oil Supplements" /><p class="caption">Snake Oil Supplements</p>
 </div>
+<h3 id="better-force-layout-node-selection">Better force layout node selection</h3>
+<p>Link: <a href="http://bl.ocks.org/couchand/6420534">http://bl.ocks.org/couchand/6420534</a></p>
+<p>交互非常有趣，而且拉动对整个团的拖动效果可以直观地让人感受到数据的相关关系。</p>
+<div class="figure">
+<img src="./force.png" alt="force layout node" /><p class="caption">force layout node</p>
+</div>
 <h2 id="平行坐标轴">平行坐标轴</h2>
 <h3 id="peoplemov.in-io">peoplemov.in (IO)</h3>
 <p>Link: <a href="http://peoplemov.in/">http://peoplemov.in/</a></p>
+<p>适用范围：出入关系</p>
 <div class="figure">
 <img src="./movin.png" alt="People Movin" /><p class="caption">People Movin</p>
 </div>
 <p>以线直接相连，用渐变表示这是一根相连的线。 线的粗细表示流量的大小。</p>
 <p>此展现方式亦非常适用于网站流量出入的展示。</p>
-<h2 id="etc">Etc</h2>
-<h3 id="jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</h3>
-<p>Link: <a href="http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/">http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/</a></p>
-<p>一个数据与筛选条件轴联动的例子。</p>
+<h3 id="worldshapin-io">worldshapin (IO)</h3>
+<p>Link: <a href="http://www.worldshap.in/#/03/US/">http://www.worldshap.in/#/03/US/</a></p>
+<p>使用范围：多维度的数据对比</p>
+<p>对于一个网站流量系统，可以将多个 site 的众多维度 访客量、驻留时间、跳出率 等因素叠在一起做一个类似的东西</p>
 <div class="figure">
-<img src="./jobs.png" alt="Jobs" /><p class="caption">Jobs</p>
+<img src="./worldshapin.png" alt="worldshapin" /><p class="caption">worldshapin</p>
 </div>
+<h2 id="可拖动轴">可拖动轴</h2>
 <h3 id="visualizing-mbta-data-io">Visualizing MBTA Data (IO)</h3>
 <p>An interactive exploration of Boston's subway system.</p>
 <p>Link: <a href="http://mbtaviz.github.io/">http://mbtaviz.github.io/</a></p>
@@ -96,11 +113,39 @@
 <img src="./station.png" alt="Entrances and Exits per Station during February 2014" /><p class="caption">Entrances and Exits per Station during February 2014</p>
 </div>
 <p>这张图则是代表每个站点的IO情况。 右边那个Avg情况分成两排上为 input ，下为　output 。 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。</p>
+<h3 id="jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</h3>
+<p>Link: <a href="http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/">http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/</a></p>
+<p>一个数据与筛选条件轴联动的例子。</p>
+<div class="figure">
+<img src="./jobs.png" alt="Jobs" /><p class="caption">Jobs</p>
+</div>
+<h2 id="网络图">网络图</h2>
+<h3 id="bible-cross-references">Bible Cross-References</h3>
+<p>Link: <a href="http://www.chrisharrison.net/index.php/Visualizations/BibleViz">http://www.chrisharrison.net/index.php/Visualizations/BibleViz</a></p>
+<p>注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。</p>
+<div class="figure">
+<img src="./BibleVizArc7small.jpg" alt="BibleViz" /><p class="caption">BibleViz</p>
+</div>
+<h3 id="dependencywheel">DependencyWheel</h3>
+<p>Link: <a href="http://redotheweb.com/DependencyWheel/">http://redotheweb.com/DependencyWheel/</a></p>
+<p>注意悬停一会可以显示其依赖关系。</p>
+<div class="figure">
+<img src="./wheel1.png" alt="wheel1" /><p class="caption">wheel1</p>
+</div>
+<div class="figure">
+<img src="./wheel2.png" alt="wheel2" /><p class="caption">wheel2</p>
+</div>
+<h2 id="etc">Etc</h2>
 <h3 id="analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</h3>
 <p>Link: <a href="http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0">http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0</a></p>
 <p>手势的一个分析。</p>
 <div class="figure">
 <img src="./obama.png" alt="Obama’s Body Language" /><p class="caption">Obama’s Body Language</p>
+</div>
+<h3 id="piwik">Piwik</h3>
+<p>Link: <a href="https://demo.piwik.org/index.php?module=CoreHome&amp;action=index&amp;idSite=7&amp;period=day&amp;date=yesterday#/module=Dashboard&amp;action=embeddedIndex&amp;idSite=7&amp;period=day&amp;date=yesterday&amp;idDashboard=1">https://demo.piwik.org/</a></p>
+<div class="figure">
+<img src="./piwik.png" alt="piwik" /><p class="caption">piwik</p>
 </div>
 </body>
 </html>
