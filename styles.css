@@ -22,6 +22,18 @@ a {
     padding: 0;
     list-style: none;
 }
+a[href="#data-visualization-examples"] {
+    font-size: 36px;
+    line-height: 72px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #DC143C;
+    color: #fff;
+    padding: 15px 36px;
+    display: inline-block;
+    margin-top: .6em;
+    margin-bottom: .5em;
+}
 h2 {
     padding: 24px;
     background: #DC143C;
@@ -40,4 +52,7 @@ p, img {
 .caption {
     font-size: 12px;
     text-align: right;
+}
+h1 {
+    display: none;
 }
