@@ -4,17 +4,17 @@
 
 ### The Billion Pound-O-Gram
 
-Link: http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/
+Link: [http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/](http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/)
 
 适用范围：数据层次关系、父子节点关系。
 
-类似的例子还有：http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/
+类似的例子还有：[http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/](http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/)
 
 ![The Billion Pound-O-Gram](./1276_billion_pound_o_gram.png)
 
 ### FoamTree
 
-Link: http://get.carrotsearch.com/foamtree/demo/demos/large.html
+Link: [http://get.carrotsearch.com/foamtree/demo/demos/large.html](http://get.carrotsearch.com/foamtree/demo/demos/large.html)
 
 适用范围：超大层级关系的树状关系
 
@@ -23,11 +23,21 @@ Link: http://get.carrotsearch.com/foamtree/demo/demos/large.html
 
 ![Foam](./foam.png)
 
+## 气泡图
+
+### The Antibiotic Abacus
+
+Link: [http://www.informationisbeautiful.net/visualizations/antibiotic-resistance/](http://www.informationisbeautiful.net/visualizations/antibiotic-resistance/)
+
+适用范围：多坐标维度交叉相关信息呈现。
+
+![The Antibiotic Abacus.png](./1276_Antibiotic_Abacus_july14.png)
+
 ## Etc
 
 ### Jobs Charted by State and Salary
 
-Link: http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/
+Link: [http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/](http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/)
 
 一个数据与筛选条件轴联动的例子。
 
@@ -37,7 +47,7 @@ Link: http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/
 
 An interactive exploration of Boston's subway system.
 
-Link: http://mbtaviz.github.io/
+Link: [http://mbtaviz.github.io/](http://mbtaviz.github.io/)
 
 这是一个交通流量的例子，但是鉴于交通流量与网络流量的相似性，这个例子还是非常有参考价值的。
 
@@ -60,7 +70,7 @@ Link: http://mbtaviz.github.io/
 
 ### Analyzing Presidential Candidate’s Body Language
 
-Link: http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0
+Link: [http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0](http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0)
 
 手势的一个分析。
 

@@ -9,7 +9,7 @@ body {
     box-shadow: 0 0 8px #777;
 }
 img {
-    max-width: 100%;
+    max-width: calc(100% - 4em);
 }
 a {
     color: #DC143C;
@@ -21,4 +21,19 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+h2 {
+    padding: 24px;
+    background: #DC143C;
+    color: #fff;
+}
+h3 {
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #DC143C;
+    border-top: 1px solid #DC143C;
+    border-bottom: 1px solid #DC143C;
+}
+p, img {
+    margin-left: 4em;
 }
