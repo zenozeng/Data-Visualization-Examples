@@ -25,3 +25,10 @@ Link: http://mbtaviz.github.io/
 右边那个Avg情况分成两排上为 input ，下为　output 。
 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。
 
+## Analyzing Presidential Candidate’s Body Language
+
+Link: http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0
+
+手势的一个分析。
+
+![Obama’s Body Language](./obama.png)
