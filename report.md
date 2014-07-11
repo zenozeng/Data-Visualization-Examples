@@ -33,13 +33,13 @@ Link: [http://www.informationisbeautiful.net/visualizations/antibiotic-resistanc
 
 ![The Antibiotic Abacus.png](./1276_Antibiotic_Abacus_july14.png)
 
-### 类目关联
+### 20th Century Death
 
-Link: [http://datavlab.org/2011/12/15/10 (Flash Required)](http://datavlab.org/2011/12/15/10)
+Link: [http://www.informationisbeautiful.net/visualizations/20th-century-death/](http://www.informationisbeautiful.net/visualizations/20th-century-death/)
 
-使用范围：复杂关联关系、强调个别的关联。
+适用范围：简单的层级关系，相对大小呈现
 
-![CatLinking](./catlinking.png)
+![20th Century Death.png](./1276_20th_Century_Death.png)
 
 ## Etc
 
