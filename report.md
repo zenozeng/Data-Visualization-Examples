@@ -1,6 +1,39 @@
 # Data Visualization Examples
 
-## Visualizing MBTA Data
+## TreeMap
+
+### The Billion Pound-O-Gram
+
+Link: http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/
+
+适用范围：数据层次关系、父子节点关系。
+
+类似的例子还有：http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/
+
+![The Billion Pound-O-Gram](./1276_billion_pound_o_gram.png)
+
+### FoamTree
+
+Link: http://get.carrotsearch.com/foamtree/demo/demos/large.html
+
+适用范围：超大层级关系的树状关系
+
+可以很清晰地表达层间关系，位于父节点时，只会粗略显示子节点。
+而使用双击缩放进入的方式来使得遍历节点的视觉感知清晰。
+
+![Foam](./foam.png)
+
+## Etc
+
+### Jobs Charted by State and Salary
+
+Link: http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/
+
+一个数据与筛选条件轴联动的例子。
+
+![Jobs](./jobs.png)
+
+### Visualizing MBTA Data
 
 An interactive exploration of Boston's subway system.
 
@@ -25,7 +58,7 @@ Link: http://mbtaviz.github.io/
 右边那个Avg情况分成两排上为 input ，下为　output 。
 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。
 
-## Analyzing Presidential Candidate’s Body Language
+### Analyzing Presidential Candidate’s Body Language
 
 Link: http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&_r=0
 
@@ -33,31 +66,3 @@ Link: http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-
 
 ![Obama’s Body Language](./obama.png)
 
-## Jobs Charted by State and Salary
-
-Link: http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/
-
-有一个数据与筛选条件轴联动的例子。
-
-![Jobs](./jobs.png)
-
-## The Billion Pound-O-Gram (TreeMap)
-
-Link: http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/
-
-适用范围：数据层次关系、父子节点关系。
-
-类似的例子还有：http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/
-
-![The Billion Pound-O-Gram](./1276_billion_pound_o_gram.png)
-
-## FoamTree (TreeMap)
-
-Link: http://get.carrotsearch.com/foamtree/demo/demos/large.html
-
-适用范围：超大层级关系的树状关系
-
-可以很清晰地表达层间关系，位于父节点时，只会粗略显示子节点。
-而使用双击缩放进入的方式来使得遍历节点的视觉感知清晰。
-
-![Foam](./foam.png)

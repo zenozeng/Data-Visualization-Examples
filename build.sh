@@ -1,1 +1,1 @@
-pandoc report.md -s > index.html
+pandoc report.md --toc -s > index.html

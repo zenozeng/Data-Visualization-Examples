@@ -8,8 +8,45 @@
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
+<div id="TOC">
+<ul>
+<li><a href="#data-visualization-examples">Data Visualization Examples</a><ul>
+<li><a href="#treemap">TreeMap</a><ul>
+<li><a href="#the-billion-pound-o-gram-treemap">The Billion Pound-O-Gram (TreeMap)</a></li>
+<li><a href="#foamtree-treemap">FoamTree (TreeMap)</a></li>
+</ul></li>
+<li><a href="#etc">Etc</a><ul>
+<li><a href="#jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</a></li>
+<li><a href="#visualizing-mbta-data">Visualizing MBTA Data</a></li>
+<li><a href="#analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
 <h1 id="data-visualization-examples">Data Visualization Examples</h1>
-<h2 id="visualizing-mbta-data">Visualizing MBTA Data</h2>
+<h2 id="treemap">TreeMap</h2>
+<h3 id="the-billion-pound-o-gram-treemap">The Billion Pound-O-Gram (TreeMap)</h3>
+<p>Link: http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/</p>
+<p>适用范围：数据层次关系、父子节点关系。</p>
+<p>类似的例子还有：http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/</p>
+<div class="figure">
+<img src="./1276_billion_pound_o_gram.png" alt="The Billion Pound-O-Gram" /><p class="caption">The Billion Pound-O-Gram</p>
+</div>
+<h3 id="foamtree-treemap">FoamTree (TreeMap)</h3>
+<p>Link: http://get.carrotsearch.com/foamtree/demo/demos/large.html</p>
+<p>适用范围：超大层级关系的树状关系</p>
+<p>可以很清晰地表达层间关系，位于父节点时，只会粗略显示子节点。 而使用双击缩放进入的方式来使得遍历节点的视觉感知清晰。</p>
+<div class="figure">
+<img src="./foam.png" alt="Foam" /><p class="caption">Foam</p>
+</div>
+<h2 id="etc">Etc</h2>
+<h3 id="jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</h3>
+<p>Link: http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/</p>
+<p>一个数据与筛选条件轴联动的例子。</p>
+<div class="figure">
+<img src="./jobs.png" alt="Jobs" /><p class="caption">Jobs</p>
+</div>
+<h3 id="visualizing-mbta-data">Visualizing MBTA Data</h3>
 <p>An interactive exploration of Boston's subway system.</p>
 <p>Link: http://mbtaviz.github.io/</p>
 <p>这是一个交通流量的例子，但是鉴于交通流量与网络流量的相似性，这个例子还是非常有参考价值的。</p>
@@ -17,9 +54,17 @@
 <img src="./subway.png" alt="Subway Trips on Monday February 3, 2014" /><p class="caption">Subway Trips on Monday February 3, 2014</p>
 </div>
 <p><code>Subway Trips on Monday February 3, 2014</code> 这个图让人印象深刻， 有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。</p>
-<p>与之类似，亦可以一个时间轴作为交互对量，另一侧放上流量情况，以小原点代表一波波的流量。 拖动时间轴就可以直观感受流量的流动。 以及，当时间轴处于非hover状态时可以以温恒速率自动滚动之。</p>
+<p>与之类似，亦可以一个时间轴作为交互对量，另一侧放上流量情况，以小原点代表一波波的流量。 拖动时间轴就可以直观感受流量的流动。 以及，当时间轴处于非hover状态时可以以稳恒速率自动滚动之。</p>
+<p>图中圆点代表了车子的位置，亦可在实际网络流量中用用户所处的位置　入口　-&gt; 出口　各点串成一个线状球。</p>
 <div class="figure">
 <img src="./station.png" alt="Entrances and Exits per Station during February 2014" /><p class="caption">Entrances and Exits per Station during February 2014</p>
+</div>
+<p>这张图则是代表每个站点的IO情况。 右边那个Avg情况分成两排上为 input ，下为　output 。 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。</p>
+<h3 id="analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</h3>
+<p>Link: http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0</p>
+<p>手势的一个分析。</p>
+<div class="figure">
+<img src="./obama.png" alt="Obama’s Body Language" /><p class="caption">Obama’s Body Language</p>
 </div>
 </body>
 </html>
