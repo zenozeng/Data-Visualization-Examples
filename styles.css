@@ -22,7 +22,10 @@ a {
     padding: 0;
     list-style: none;
 }
-a[href="#data-visualization-examples"] {
+#TOC a {
+    color: #000;
+}
+#TOC a[href="#data-visualization-examples"] {
     font-size: 36px;
     line-height: 72px;
     font-weight: bold;
