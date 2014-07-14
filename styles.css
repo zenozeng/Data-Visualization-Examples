@@ -63,3 +63,10 @@ figcaption {
 h1 {
     display: none;
 }
+.footnotes {
+    font-size: 12px;
+}
+.footnotes p {
+    font-size: 12px;
+    word-wrap:break-word;
+}

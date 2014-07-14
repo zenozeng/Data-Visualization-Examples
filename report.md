@@ -2,13 +2,14 @@
 
 ## TreeMap
 
-### The Billion Pound-O-Gram
+### The Billion Pound-O-Gram (IO)
 
 Link: [http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/](http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/)
 
-适用范围：数据层次关系、父子节点关系。
-
-类似的例子还有：[http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/](http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/)
+Treemap是一类可以同时显示宏观信息与细节信息以及层级的关系的数据呈现形式。
+类似于 SmartMoney^[http://www.vizinsight.com/2010/12/%E6%B5%85%E8%B0%88%E5%B1%82%E6%AC%A1%E6%95%B0%E6%8D%AE%E7%9A%84%E5%8F%AF%E8%A7%86%E5%8C%96%E6%8A%80%E6%9C%AF%E4%B8%AD/] 的例子，我们可以将流量信息类比于股票。
+先按照类别分组，然后用矩形的大小表示流量的大小，用颜色绿和红来表示流量的增幅（降幅）速度。
+同时定期刷新该treemap。这样就能总体感知各个站点的整体流量情况了。
 
 ![The Billion Pound-O-Gram](./1276_billion_pound_o_gram.png)
 
@@ -16,14 +17,17 @@ Link: [http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-
 
 Link: [http://get.carrotsearch.com/foamtree/demo/demos/large.html](http://get.carrotsearch.com/foamtree/demo/demos/large.html)
 
-适用范围：超大层级关系的树状关系
-
+与前面的例子不同的是，这个适合于超大层级关系的树状关系。
 可以很清晰地表达层间关系，位于父节点时，只会粗略显示子节点。
-而使用双击缩放进入的方式来使得遍历节点的视觉感知清晰。
+而使用双击缩放进入的方式来使得遍历节点，
+而不让子孙节点干扰父节点的视觉展示。
 
 ![Foam](./foam.png)
 
 ## 气泡图
+
+气泡图的一大特色是在二维图中反映出超过二维的信息。
+通过气泡的大小、颜色等因素来展现额外的信息。
 
 ### The Antibiotic Abacus
 
@@ -33,19 +37,18 @@ Link: [http://www.informationisbeautiful.net/visualizations/antibiotic-resistanc
 
 ![The Antibiotic Abacus.png](./1276_Antibiotic_Abacus_july14.png)
 
-### 20th Century Death
+### 20th Century Death (IO)
 
 Link: [http://www.informationisbeautiful.net/visualizations/20th-century-death/](http://www.informationisbeautiful.net/visualizations/20th-century-death/)
 
-适用范围：简单的层级关系，相对大小呈现
+这个图其实非常适合关键词之类的分析。大小代表成交数据，颜色（色温）代表流量大小，
+子层级是各个具体的关键词，而聚类后形成一个较大的分类。
 
 ![20th Century Death.png](./1276_20th_Century_Death.png)
 
 ### Snake Oil Supplements?
 
 Link: [http://www.informationisbeautiful.net/play/snake-oil-supplements/](http://www.informationisbeautiful.net/play/snake-oil-supplements/)
-
-左侧的坐标轴与右侧的筛选是其亮点。
 
 ![Snake Oil Supplements](./oil.png)
 
@@ -189,6 +192,10 @@ Link: [http://bost.ocks.org/mike/miserables/](http://bost.ocks.org/mike/miserabl
 如果要是和时间轴（或其他某个参数轴）相结合的话，就能感受到，
 各个路径流量色块随着该参数而变化的样子。
 嘛，应该还是挺有趣的。
+
+相比典型的气泡图，小方块的呈现虽然丢失大小这个维度，
+但是整齐的方块也使得整个数据呈现非常紧凑，
+数据的呈现密度较大，能呈现更大的数据集。
 
 ![matrix.png](matrix.png)
 
