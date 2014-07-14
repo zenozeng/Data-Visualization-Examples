@@ -109,19 +109,20 @@ Link: [http://mbtaviz.github.io/](http://mbtaviz.github.io/)
 
 ![Subway Trips on Monday February 3, 2014](./subway.png)
 
-这个图让人印象深刻，
-有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。
+这个图让人印象深刻，有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。
+点是车所在的位置。各个端口是站点。
 
-与之类似，亦可以一个时间轴作为交互对量，另一侧放上流量情况，以小原点代表一波波的流量。
-拖动时间轴就可以直观感受流量的流动。
-以及，当时间轴处于非hover状态时可以以稳恒速率自动滚动之。
-
-图中圆点代表了车子的位置，亦可在实际网络流量中用用户所处的位置　入口　-> 出口　各点串成一个线状球。
+相应的，可以各个网站作为站点的替代，如果数据是跳出的则从相应站点出口离开，
+否则则聚集到中心再到下一个节点。
+每一个小点可以代表一个小波的流量。移动速度则按照用户的滞留时间进行计算。
+右边时间轴的细线可用用户的seesion周期表示。
+hover时间轴的时候就可以动态展现流量在各个节点之间的流动。
+如果没有hover时间轴则可以自动滚动时间轴。
 
 ![Entrances and Exits per Station during February 2014](./station.png)
 
 这张图则是代表每个站点的IO情况。
-右边那个Avg情况分成两排上为 input ，下为　output 。
+右边那个Avg情况分成两排上为 input，下为 output 。
 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。
 
 ### Jobs Charted by State and Salary
@@ -141,6 +142,9 @@ Link: [http://www.chrisharrison.net/index.php/Visualizations/BibleViz](http://ww
 ![BibleViz](./BibleVizArc7small.jpg)
 
 注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。
+但有一点就是，这个图中对原始信息的呈现觉得颇有些不够。
+
+非常适合对有序列表海量关联统计。
 
 ### DependencyWheel
 
@@ -229,12 +233,6 @@ Link: [http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and
 ![Obama’s Body Language](./obama.png)
 
 手势的一个分析。
-
-### Piwik
-
-Link: [https://demo.piwik.org/](https://demo.piwik.org/index.php?module=CoreHome&action=index&idSite=7&period=day&date=yesterday#/module=Dashboard&action=embeddedIndex&idSite=7&period=day&date=yesterday&idDashboard=1)
-
-![piwik](./piwik.png)
 
 ### Calendar View
 
