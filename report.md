@@ -266,7 +266,11 @@ Link: [http://bl.ocks.org/mbostock/3943967](http://bl.ocks.org/mbostock/3943967)
 
 ![Grouped Bars](./grouped.png)
 
-有上有 Stacked 和 Grouped 的一键切换，非常直观的。
+这个例子有上有 Stacked 和 Grouped 的一键切换，非常直观的。
+
+关于两种图的选择：
+If there is no part to whole relationship (maybe there is overlap in the categories), then grouped is definitely the option you want to use. If there is a part to whole relationship, then the next question to ask is what relationship is the most important to show. If the goal is to show sizes between individual categories, use a grouped column or bar chart. If the goal is to show the total sizes of groups, use a regular stacked bar chart. If the goal is to show relative differences within each group, use a stacked percentage column chart.
+^[http://blog.visual.ly/how-groups-stack-up-when-to-use-grouped-vs-stacked-column-charts/]
 
 ### Streamgraph
 
@@ -275,13 +279,3 @@ Link: [http://bl.ocks.org/mbostock/4060954](http://bl.ocks.org/mbostock/4060954)
 ![Streamgraph](./streamgraph.png)
 
 For continuous data such as time series, a streamgraph can be used in place of stacked bars. 
-
-## 总结
-
-- 联动
-
-    一组数据的各个部分需要联动来体现其相关关系。
-    
-- 交互
-
-    用户应该能够选择参数进行调整，或者能够进行筛选数据集的行为。
