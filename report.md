@@ -144,17 +144,20 @@ Link: [http://www.chrisharrison.net/index.php/Visualizations/BibleViz](http://ww
 注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。
 但有一点就是，这个图中对原始信息的呈现觉得颇有些不够。
 
-非常适合对有序列表海量关联统计。
+非常适合对大量有序列表进行相关性分析。
 
 ### DependencyWheel
 
 Link: [http://redotheweb.com/DependencyWheel/](http://redotheweb.com/DependencyWheel/)
 
+注意悬停一会可以显示其依赖关系。
+
 ![wheel1](./wheel1.png)
 
 ![wheel2](./wheel2.png)
 
-注意悬停一会可以显示其依赖关系。
+这个适合多对多的联系的显示。
+适用于关键词、产品的关联显示。
 
 ## 地图
 
@@ -164,13 +167,23 @@ Link: [http://fathom.info/dencity/](http://fathom.info/dencity/)
 
 ![dencity](./dencity-for-web.jpg)
 
-点的大小代表着个人的生存空间大小。
+注意图中点的大小代表着个人的生存空间大小。
+点越密，则个人的生存空间越小。
+
+地图可表示目标指标与地域的联系。
+比如流量与地域、成交额与地域、转化率与地域之类。
+还有就是地域与某些特定商品的购物情况。
+可以做定向的投放。
 
 ### World Bank Global Development Sprint
 
 Link: [http://d3.artzub.com/wbca/](http://d3.artzub.com/wbca/)
 
 ![wbca](wbca.png)
+
+另一个地图的例子。
+但是增加了交互特性，动态显示各种流量的情况。
+可以相对定性地去感知到各种流量的比例、在全球的流动情况。
 
 ## 热力图
 
@@ -182,6 +195,8 @@ Link: [http://d3.artzub.com/wbca/](http://d3.artzub.com/wbca/)
 Link: [webgl热力图-5个商圈的24小时](http://datavlab.org/cat/%E5%8F%AF%E8%A7%86%E5%8C%96%E6%A1%88%E4%BE%8B/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B1%95%E7%8E%B0%E7%B1%BB%E5%9E%8B/%E7%83%AD%E5%8A%9B%E5%9B%BE)
 
 ![hotmap](./hot.png)
+
+一个实时活动的例子。
 
 ## Matrix
 
@@ -204,7 +219,7 @@ Link: [http://bost.ocks.org/mike/miserables/](http://bost.ocks.org/mike/miserabl
 嘛，应该还是挺有趣的。
 
 相比典型的气泡图，小方块的呈现虽然丢失大小这个维度，
-但是整齐的方块也使得整个数据呈现非常紧凑，
+但是感觉整齐的方块也使得整个数据呈现非常紧凑，
 数据的呈现密度较大，能呈现更大的数据集。
 
 ### iris-splom (IO)
