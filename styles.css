@@ -28,12 +28,12 @@ p {
 }
 #TOC a[href="#data-visualization-examples"] {
     font-size: 36px;
-    line-height: 72px;
+    line-height: 60px;
     font-weight: bold;
     text-decoration: none;
     background: #DC143C;
     color: #fff;
-    padding: 15px 36px;
+    padding: 10px 36px;
     display: inline-block;
     margin-top: .6em;
     margin-bottom: .5em;
