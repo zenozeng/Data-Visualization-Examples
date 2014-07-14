@@ -50,8 +50,11 @@ h3 {
     border-top: 1px solid #DC143C;
     border-bottom: 1px solid #DC143C;
 }
-p, figure {
-    margin-left: 4em;
+p, figure, h4 {
+    margin-left: 48px;
+}
+body > ul {
+    margin-left: 48px;
 }
 img {
     max-width: 100%;

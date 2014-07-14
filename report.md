@@ -1,5 +1,79 @@
 # Data Visualization Examples
 
+## Flow Visualization
+
+### Energy technologies visualisation for the IEA
+
+Link: [http://visualisingdata.com/index.php/2012/06/energy-technologies-visualisation-for-the-iea/](http://visualisingdata.com/index.php/2012/06/energy-technologies-visualisation-for-the-iea/)
+
+![General View](energy1.png)
+
+![Highlight](energy2.png)
+
+### Google Analytics
+
+Link: [https://support.google.com/analytics/topic/2472754?hl=en&ref_topic=1727148](https://support.google.com/analytics/topic/2472754?hl=en&ref_topic=1727148)
+
+Link: [http://analytics.blogspot.jp/2011/10/introducing-flow-visualization.html](http://analytics.blogspot.jp/2011/10/introducing-flow-visualization.html)
+
+The images below are from http://analytics.blogspot.jp/2011/10/introducing-flow-visualization.html.
+
+#### The anatomy of a Flow Report
+
+A flow visualization is a graphic that a traces a route or a path, like a trail through a forest. Unlike a map, which displays possible and known routes, a flow visualization reveals the actual path as it was traveled step by step, including any detours or backtracking that happened along the way.^[https://support.google.com/analytics/answer/2519986?hl=en&ref_topic=2472754]
+
+![FlowVizAnatomy](FlowVizAnatomy.png)
+
+#### Visitor Flow
+
+Visitors Flow is a graphical representation of the paths users took through your site, from the source, through the various pages, and where along their paths they exited your site.^[https://support.google.com/analytics/answer/1709395?hl=en#&utm\_source=analytics&utm\_campaign=eventsflow&utm_medium=blog]
+
+![VisitFlowpart1](VisitFlowpart1.png)
+
+![VisitFlow3](VisitFlow3.png)
+
+#### Goal Flow
+
+The Goal Flow Report visualizes the path your traffic traveled through a funnel towards a Goal. This report can help you see if users are navigating your content and completing a targeted objective as you expect them to.^[https://support.google.com/analytics/answer/2520139?hl=en#&utm\_source=analytics&utm\_campaign=eventsflow&utm_medium=blog]
+
+![goalflow1](goalflow1.png)
+
+![Example of Goal Flow Date Comparison](FlowVizImage3.png)
+
+#### Event Flow
+
+If you’re tracking special content like videos, downloadable items, and embedded gadgets as Events, use the Events Flow report to visualize the order in which users trigger these Events on your site. The Events Flow report can help you discover what content keeps users engaged with your site, and see the paths users take from one popular Event to the next.^[https://support.google.com/analytics/answer/2521316?hl=en#&utm\_source=analytics&utm\_campaign=eventsflow&utm_medium=blog]
+
+### Charles Joseph Minard
+
+Link: [http://en.wikipedia.org/wiki/Charles_Joseph_Minard](http://en.wikipedia.org/wiki/Charles_Joseph_Minard)
+
+![Minard.png](Minard.png)
+
+The graph displays several variables in a single two-dimensional image:
+
+- the size of the army - providing a strong visual representation of human suffering, e.g. the sudden decrease of the army's size at the battle crossing the Berezina river on the retreat;
+
+- the geographical co-ordinates, latitude and longitude, of the army as it moved;
+
+- the direction that the army was traveling, both in advance and in retreat, showing where units split off and rejoined;
+
+- the location of the army with respect to certain dates;
+
+- the weather temperature along the path of the retreat, in another strong visualisation of events (during the retreat "one of the worst winters in recent memory set in"[1]).
+
+### Mixpanel
+
+Link: [Mixpanel Flow Helps Companies Visualize User Activity](http://techcrunch.com/2012/03/22/mixpanel-flow/)
+
+![Mixpanel](mixpanel.png)
+
+### webtrends
+
+Link: [http://help.webtrends.com/en/streams/streams_campaign_flow.html](http://help.webtrends.com/en/streams/streams_campaign_flow.html)
+
+![campaignflow](campaignflow.png)
+
 ## TreeMap
 
 ### The Billion Pound-O-Gram (IO)
