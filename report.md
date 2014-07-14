@@ -66,6 +66,8 @@ The graph displays several variables in a single two-dimensional image:
 
 Link: [Mixpanel Flow Helps Companies Visualize User Activity](http://techcrunch.com/2012/03/22/mixpanel-flow/)
 
+The Campaign Flow shows visitor traffic sources and destinations for a user-specified URL.
+
 ![Mixpanel](mixpanel.png)
 
 ### webtrends
