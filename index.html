@@ -41,13 +41,16 @@
 <li><a href="#热力图">热力图</a><ul>
 <li><a href="#webgl热力图-5个商圈的24小时">webgl热力图-5个商圈的24小时</a></li>
 </ul></li>
+<li><a href="#matrix">Matrix</a><ul>
+<li><a href="#les-misérables-co-occurrence-io">Les Misérables Co-occurrence (IO)</a></li>
+<li><a href="#iris-splom-io">iris-splom (IO)</a></li>
+</ul></li>
 <li><a href="#etc">Etc</a><ul>
 <li><a href="#analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</a></li>
 <li><a href="#piwik">Piwik</a></li>
 <li><a href="#calendar-view">Calendar View</a></li>
 <li><a href="#stacked-to-grouped-bars">Stacked-to-Grouped Bars</a></li>
 <li><a href="#streamgraph">Streamgraph</a></li>
-<li><a href="#les-misérables-co-occurrence-matrix-io">Les Misérables Co-occurrence (matrix) (IO)</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -166,6 +169,24 @@
 <figure>
 <img src="./hot.png" alt="hotmap" /><figcaption>hotmap</figcaption>
 </figure>
+<h2 id="matrix">Matrix</h2>
+<h3 id="les-misérables-co-occurrence-io">Les Misérables Co-occurrence (IO)</h3>
+<p>Link: <a href="http://bost.ocks.org/mike/miserables/">http://bost.ocks.org/mike/miserables/</a></p>
+<p>一个有趣的矩阵。 嘛，切换右上角的 order 会有 transition 动画可以看。 觉得对流量分析也是挺有价值的。 有两个维度，一个可为 input，二另一个可为 output， 则相交的高亮色块可表示该条流量路径的相对流量大小。 以其流量与热力学温度正相关，然后转化为色温， 就能非常直观地感受整个的流量情况。</p>
+<p>如果要是和时间轴（或其他某个参数轴）相结合的话，就能感受到， 各个路径流量色块随着该参数而变化的样子。 嘛，应该还是挺有趣的。</p>
+<figure>
+<img src="matrix.png" alt="matrix.png" /><figcaption>matrix.png</figcaption>
+</figure>
+<h3 id="iris-splom-io">iris-splom (IO)</h3>
+<p>Link: <a href="http://mbostock.github.io/d3/talk/20111116/iris-splom.html">http://mbostock.github.io/d3/talk/20111116/iris-splom.html</a></p>
+<p>四个参数，每张图（除开对角线）表示其中两个参数的相关关系。 非常值得注意的是，每个图是可以用矩形选择（见下图）区域的， 选择发生后，在矩形区域的点集会在16图上被高亮， 而其他的点则是被灰化显示。 可以非常直观地感受一部分点的各个参数相关情况。</p>
+<p>则对于流量分析，可以得知一部分目标用户集（比如A参数和B参数都位于右上角的用户） 各个参数相关情况的情况。对于快速分析目标用户的情况还是非常有帮助的。</p>
+<figure>
+<img src="iris-splom0.png" alt="iris-splom0.png" /><figcaption>iris-splom0.png</figcaption>
+</figure>
+<figure>
+<img src="iris-splom.png" alt="iris-splom.png" /><figcaption>iris-splom.png</figcaption>
+</figure>
 <h2 id="etc">Etc</h2>
 <h3 id="analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</h3>
 <p>Link: <a href="http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0">http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0</a></p>
@@ -198,12 +219,6 @@
 <p>For continuous data such as time series, a streamgraph can be used in place of stacked bars.</p>
 <figure>
 <img src="./streamgraph.png" alt="Streamgraph" /><figcaption>Streamgraph</figcaption>
-</figure>
-<h3 id="les-misérables-co-occurrence-matrix-io">Les Misérables Co-occurrence (matrix) (IO)</h3>
-<p>Link: <a href="http://bost.ocks.org/mike/miserables/">http://bost.ocks.org/mike/miserables/</a></p>
-<p>一个有趣的矩阵。 嘛，切换右上角的 order 会有 transition 动画可以看。 觉得对流量分析也是挺有价值的。 有两个维度，一个可为 input，二另一个可为 output， 则相交的高亮色块可表示该条流量路径的相对流量大小。 以其流量与热力学温度正相关，然后转化为色温， 就能非常直观地感受整个的流量情况。</p>
-<figure>
-<img src="matrix.png" alt="matrix.png" /><figcaption>matrix.png</figcaption>
 </figure>
 </body>
 </html>

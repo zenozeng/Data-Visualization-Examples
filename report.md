@@ -155,6 +155,12 @@ Link: [http://fathom.info/dencity/](http://fathom.info/dencity/)
 
 ![dencity](./dencity-for-web.jpg)
 
+### World Bank Global Development Sprint
+
+Link: [http://d3.artzub.com/wbca/](http://d3.artzub.com/wbca/)
+
+![wbca](wbca.png)
+
 ## 热力图
 
 ~~关于热力图，有个想法。就是不仅仅只是跟踪鼠标的点击。而是同时监听hover事件。这样可以获得鼠标的轨迹。~~
@@ -165,6 +171,43 @@ Link: [http://fathom.info/dencity/](http://fathom.info/dencity/)
 Link: [webgl热力图-5个商圈的24小时](http://datavlab.org/cat/%E5%8F%AF%E8%A7%86%E5%8C%96%E6%A1%88%E4%BE%8B/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B1%95%E7%8E%B0%E7%B1%BB%E5%9E%8B/%E7%83%AD%E5%8A%9B%E5%9B%BE)
 
 ![hotmap](./hot.png)
+
+## Matrix
+
+### Les Misérables Co-occurrence (IO)
+
+Link: [http://bost.ocks.org/mike/miserables/](http://bost.ocks.org/mike/miserables/)
+
+一个有趣的矩阵。
+嘛，切换右上角的 order 会有 transition 动画可以看。
+觉得对流量分析也是挺有价值的。
+有两个维度，一个可为 input，二另一个可为 output，
+则相交的高亮色块可表示该条流量路径的相对流量大小。
+以其流量与热力学温度正相关，然后转化为色温，
+就能非常直观地感受整个的流量情况。
+
+如果要是和时间轴（或其他某个参数轴）相结合的话，就能感受到，
+各个路径流量色块随着该参数而变化的样子。
+嘛，应该还是挺有趣的。
+
+![matrix.png](matrix.png)
+
+### iris-splom (IO)
+
+Link: [http://mbostock.github.io/d3/talk/20111116/iris-splom.html](http://mbostock.github.io/d3/talk/20111116/iris-splom.html)
+
+四个参数，每张图（除开对角线）表示其中两个参数的相关关系。
+非常值得注意的是，每个图是可以用矩形选择（见下图）区域的，
+选择发生后，在矩形区域的点集会在16图上被高亮，
+而其他的点则是被灰化显示。
+可以非常直观地感受一部分点的各个参数相关情况。
+
+则对于流量分析，可以得知一部分目标用户集（比如A参数和B参数都位于右上角的用户）
+各个参数相关情况的情况。对于快速分析目标用户的情况还是非常有帮助的。
+
+![iris-splom0.png](iris-splom0.png)
+
+![iris-splom.png](iris-splom.png)
 
 ## Etc
 
@@ -209,21 +252,12 @@ For continuous data such as time series, a streamgraph can be used in place of s
 
 ![Streamgraph](./streamgraph.png)
 
-### Les Misérables Co-occurrence (matrix) (IO)
+## 总结
 
-Link: [http://bost.ocks.org/mike/miserables/](http://bost.ocks.org/mike/miserables/)
+- 联动
 
-一个有趣的矩阵。
-嘛，切换右上角的 order 会有 transition 动画可以看。
-觉得对流量分析也是挺有价值的。
-有两个维度，一个可为 input，二另一个可为 output，
-则相交的高亮色块可表示该条流量路径的相对流量大小。
-以其流量与热力学温度正相关，然后转化为色温，
-就能非常直观地感受整个的流量情况。
+    一组数据的各个部分需要联动来体现其相关关系。
+    
+- 交互
 
-如果要是和时间轴（或其他某个参数轴）相结合的话，就能感受到，
-各个路径流量色块随着该参数而变化的样子。
-嘛，应该还是挺有趣的。
-
-![matrix.png](matrix.png)
-
+    用户应该能够选择参数进行调整，或者能够进行筛选数据集的行为。
