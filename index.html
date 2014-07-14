@@ -49,7 +49,6 @@
 </ul></li>
 <li><a href="#etc">Etc</a><ul>
 <li><a href="#analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</a></li>
-<li><a href="#piwik">Piwik</a></li>
 <li><a href="#calendar-view">Calendar View</a></li>
 <li><a href="#stacked-to-grouped-bars">Stacked-to-Grouped Bars</a></li>
 <li><a href="#streamgraph">Streamgraph</a></li>
@@ -125,13 +124,12 @@
 <figure>
 <img src="./subway.png" alt="Subway Trips on Monday February 3, 2014" /><figcaption>Subway Trips on Monday February 3, 2014</figcaption>
 </figure>
-<p>这个图让人印象深刻， 有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。</p>
-<p>与之类似，亦可以一个时间轴作为交互对量，另一侧放上流量情况，以小原点代表一波波的流量。 拖动时间轴就可以直观感受流量的流动。 以及，当时间轴处于非hover状态时可以以稳恒速率自动滚动之。</p>
-<p>图中圆点代表了车子的位置，亦可在实际网络流量中用用户所处的位置　入口　-&gt; 出口　各点串成一个线状球。</p>
+<p>这个图让人印象深刻，有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。 点是车所在的位置。各个端口是站点。</p>
+<p>相应的，可以各个网站作为站点的替代，如果数据是跳出的则从相应站点出口离开， 否则则聚集到中心再到下一个节点。 每一个小点可以代表一个小波的流量。移动速度则按照用户的滞留时间进行计算。 右边时间轴的细线可用用户的seesion周期表示。 hover时间轴的时候就可以动态展现流量在各个节点之间的流动。 如果没有hover时间轴则可以自动滚动时间轴。</p>
 <figure>
 <img src="./station.png" alt="Entrances and Exits per Station during February 2014" /><figcaption>Entrances and Exits per Station during February 2014</figcaption>
 </figure>
-<p>这张图则是代表每个站点的IO情况。 右边那个Avg情况分成两排上为 input ，下为　output 。 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。</p>
+<p>这张图则是代表每个站点的IO情况。 右边那个Avg情况分成两排上为 input，下为 output 。 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。</p>
 <h3 id="jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</h3>
 <p>Link: <a href="http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/">http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/</a></p>
 <figure>
@@ -144,7 +142,8 @@
 <figure>
 <img src="./BibleVizArc7small.jpg" alt="BibleViz" /><figcaption>BibleViz</figcaption>
 </figure>
-<p>注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。</p>
+<p>注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。 但有一点就是，这个图中对原始信息的呈现觉得颇有些不够。</p>
+<p>非常适合对有序列表海量关联统计。</p>
 <h3 id="dependencywheel">DependencyWheel</h3>
 <p>Link: <a href="http://redotheweb.com/DependencyWheel/">http://redotheweb.com/DependencyWheel/</a></p>
 <figure>
@@ -199,11 +198,6 @@
 <img src="./obama.png" alt="Obama’s Body Language" /><figcaption>Obama’s Body Language</figcaption>
 </figure>
 <p>手势的一个分析。</p>
-<h3 id="piwik">Piwik</h3>
-<p>Link: <a href="https://demo.piwik.org/index.php?module=CoreHome&amp;action=index&amp;idSite=7&amp;period=day&amp;date=yesterday#/module=Dashboard&amp;action=embeddedIndex&amp;idSite=7&amp;period=day&amp;date=yesterday&amp;idDashboard=1">https://demo.piwik.org/</a></p>
-<figure>
-<img src="./piwik.png" alt="piwik" /><figcaption>piwik</figcaption>
-</figure>
 <h3 id="calendar-view">Calendar View</h3>
 <p>Link: <a href="http://bl.ocks.org/mbostock/4063318">http://bl.ocks.org/mbostock/4063318</a></p>
 <figure>
