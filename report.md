@@ -82,6 +82,14 @@ Link: [http://www.worldshap.in/#/03/US/](http://www.worldshap.in/#/03/US/)
 
 ![worldshapin](./worldshapin.png)
 
+### iris-parallel
+
+Link: [http://mbostock.github.io/d3/talk/20111116/iris-parallel.html](http://mbostock.github.io/d3/talk/20111116/iris-parallel.html)
+
+能够相对清晰地表明各个坐标的多个参数高低。
+
+![parallel](parallel.png)
+
 ## 可拖动轴
 
 ### Visualizing MBTA Data (IO)
@@ -137,6 +145,27 @@ Link: [http://redotheweb.com/DependencyWheel/](http://redotheweb.com/DependencyW
 
 ![wheel2](./wheel2.png)
 
+## 地图
+
+### Dencity
+
+Link: [http://fathom.info/dencity/](http://fathom.info/dencity/)
+
+点的大小代表着个人的生存空间大小。
+
+![dencity](./dencity-for-web.jpg)
+
+## 热力图
+
+~~关于热力图，有个想法。就是不仅仅只是跟踪鼠标的点击。而是同时监听hover事件。这样可以获得鼠标的轨迹。~~
+似乎这个想法不大靠谱，劫持hover对性能的开销似乎不小而且意义并非那么大。
+
+### webgl热力图-5个商圈的24小时
+
+Link: [webgl热力图-5个商圈的24小时](http://datavlab.org/cat/%E5%8F%AF%E8%A7%86%E5%8C%96%E6%A1%88%E4%BE%8B/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B1%95%E7%8E%B0%E7%B1%BB%E5%9E%8B/%E7%83%AD%E5%8A%9B%E5%9B%BE)
+
+![hotmap](./hot.png)
+
 ## Etc
 
 ### Analyzing Presidential Candidate’s Body Language
@@ -152,3 +181,49 @@ Link: [http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and
 Link: [https://demo.piwik.org/](https://demo.piwik.org/index.php?module=CoreHome&action=index&idSite=7&period=day&date=yesterday#/module=Dashboard&action=embeddedIndex&idSite=7&period=day&date=yesterday&idDashboard=1)
 
 ![piwik](./piwik.png)
+
+### Calendar View
+
+Link: [http://bl.ocks.org/mbostock/4063318](http://bl.ocks.org/mbostock/4063318)
+
+类似于 Github 的 Commit 那个记录。
+可以相对直观地反应较长期中各天的情况。
+
+![Calendar View](./calendar.png)
+
+### Stacked-to-Grouped Bars
+
+Link: [http://bl.ocks.org/mbostock/3943967](http://bl.ocks.org/mbostock/3943967)
+
+有上有 Stacked 和 Grouped 的一键切换，非常直观的。
+
+![Stacked Bars](./stacked.png)
+
+![Grouped Bars](./grouped.png)
+
+### Streamgraph
+
+Link: [http://bl.ocks.org/mbostock/4060954](http://bl.ocks.org/mbostock/4060954)
+
+For continuous data such as time series, a streamgraph can be used in place of stacked bars. 
+
+![Streamgraph](./streamgraph.png)
+
+### Les Misérables Co-occurrence (matrix) (IO)
+
+Link: [http://bost.ocks.org/mike/miserables/](http://bost.ocks.org/mike/miserables/)
+
+一个有趣的矩阵。
+嘛，切换右上角的 order 会有 transition 动画可以看。
+觉得对流量分析也是挺有价值的。
+有两个维度，一个可为 input，二另一个可为 output，
+则相交的高亮色块可表示该条流量路径的相对流量大小。
+以其流量与热力学温度正相关，然后转化为色温，
+就能非常直观地感受整个的流量情况。
+
+如果要是和时间轴（或其他某个参数轴）相结合的话，就能感受到，
+各个路径流量色块随着该参数而变化的样子。
+嘛，应该还是挺有趣的。
+
+![matrix.png](matrix.png)
+

@@ -8,9 +8,6 @@ body {
     background: #fff;
     box-shadow: 0 0 8px #777;
 }
-img {
-    max-width: calc(100% - 4em);
-}
 a {
     color: #DC143C;
 }
@@ -49,10 +46,13 @@ h3 {
     border-top: 1px solid #DC143C;
     border-bottom: 1px solid #DC143C;
 }
-p, img {
+p, figure {
     margin-left: 4em;
 }
-.caption {
+img {
+    max-width: 100%;
+}
+figcaption {
     font-size: 12px;
     text-align: right;
 }

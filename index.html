@@ -6,7 +6,7 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <div id="TOC">
@@ -25,6 +25,7 @@
 <li><a href="#平行坐标轴">平行坐标轴</a><ul>
 <li><a href="#peoplemov.in-io">peoplemov.in (IO)</a></li>
 <li><a href="#worldshapin-io">worldshapin (IO)</a></li>
+<li><a href="#iris-parallel">iris-parallel</a></li>
 </ul></li>
 <li><a href="#可拖动轴">可拖动轴</a><ul>
 <li><a href="#visualizing-mbta-data-io">Visualizing MBTA Data (IO)</a></li>
@@ -34,9 +35,19 @@
 <li><a href="#bible-cross-references">Bible Cross-References</a></li>
 <li><a href="#dependencywheel">DependencyWheel</a></li>
 </ul></li>
+<li><a href="#地图">地图</a><ul>
+<li><a href="#dencity">Dencity</a></li>
+</ul></li>
+<li><a href="#热力图">热力图</a><ul>
+<li><a href="#webgl热力图-5个商圈的24小时">webgl热力图-5个商圈的24小时</a></li>
+</ul></li>
 <li><a href="#etc">Etc</a><ul>
 <li><a href="#analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</a></li>
 <li><a href="#piwik">Piwik</a></li>
+<li><a href="#calendar-view">Calendar View</a></li>
+<li><a href="#stacked-to-grouped-bars">Stacked-to-Grouped Bars</a></li>
+<li><a href="#streamgraph">Streamgraph</a></li>
+<li><a href="#les-misérables-co-occurrence-matrix-io">Les Misérables Co-occurrence (matrix) (IO)</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -47,105 +58,152 @@
 <p>Link: <a href="http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/">http://www.informationisbeautiful.net/visualizations/the-billion-pound-o-gram/</a></p>
 <p>适用范围：数据层次关系、父子节点关系。</p>
 <p>类似的例子还有：<a href="http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/">http://www.informationisbeautiful.net/visualizations/the-bbc-o-gram/</a></p>
-<div class="figure">
-<img src="./1276_billion_pound_o_gram.png" alt="The Billion Pound-O-Gram" /><p class="caption">The Billion Pound-O-Gram</p>
-</div>
+<figure>
+<img src="./1276_billion_pound_o_gram.png" alt="The Billion Pound-O-Gram" /><figcaption>The Billion Pound-O-Gram</figcaption>
+</figure>
 <h3 id="foamtree">FoamTree</h3>
 <p>Link: <a href="http://get.carrotsearch.com/foamtree/demo/demos/large.html">http://get.carrotsearch.com/foamtree/demo/demos/large.html</a></p>
 <p>适用范围：超大层级关系的树状关系</p>
 <p>可以很清晰地表达层间关系，位于父节点时，只会粗略显示子节点。 而使用双击缩放进入的方式来使得遍历节点的视觉感知清晰。</p>
-<div class="figure">
-<img src="./foam.png" alt="Foam" /><p class="caption">Foam</p>
-</div>
+<figure>
+<img src="./foam.png" alt="Foam" /><figcaption>Foam</figcaption>
+</figure>
 <h2 id="气泡图">气泡图</h2>
 <h3 id="the-antibiotic-abacus">The Antibiotic Abacus</h3>
 <p>Link: <a href="http://www.informationisbeautiful.net/visualizations/antibiotic-resistance/">http://www.informationisbeautiful.net/visualizations/antibiotic-resistance/</a></p>
 <p>适用范围：多坐标维度交叉相关信息呈现。</p>
-<div class="figure">
-<img src="./1276_Antibiotic_Abacus_july14.png" alt="The Antibiotic Abacus.png" /><p class="caption">The Antibiotic Abacus.png</p>
-</div>
+<figure>
+<img src="./1276_Antibiotic_Abacus_july14.png" alt="The Antibiotic Abacus.png" /><figcaption>The Antibiotic Abacus.png</figcaption>
+</figure>
 <h3 id="th-century-death">20th Century Death</h3>
 <p>Link: <a href="http://www.informationisbeautiful.net/visualizations/20th-century-death/">http://www.informationisbeautiful.net/visualizations/20th-century-death/</a></p>
 <p>适用范围：简单的层级关系，相对大小呈现</p>
-<div class="figure">
-<img src="./1276_20th_Century_Death.png" alt="20th Century Death.png" /><p class="caption">20th Century Death.png</p>
-</div>
+<figure>
+<img src="./1276_20th_Century_Death.png" alt="20th Century Death.png" /><figcaption>20th Century Death.png</figcaption>
+</figure>
 <h3 id="snake-oil-supplements">Snake Oil Supplements?</h3>
 <p>Link: <a href="http://www.informationisbeautiful.net/play/snake-oil-supplements/">http://www.informationisbeautiful.net/play/snake-oil-supplements/</a></p>
 <p>左侧的坐标轴与右侧的筛选是其亮点。</p>
-<div class="figure">
-<img src="./oil.png" alt="Snake Oil Supplements" /><p class="caption">Snake Oil Supplements</p>
-</div>
+<figure>
+<img src="./oil.png" alt="Snake Oil Supplements" /><figcaption>Snake Oil Supplements</figcaption>
+</figure>
 <h3 id="better-force-layout-node-selection">Better force layout node selection</h3>
 <p>Link: <a href="http://bl.ocks.org/couchand/6420534">http://bl.ocks.org/couchand/6420534</a></p>
 <p>交互非常有趣，而且拉动对整个团的拖动效果可以直观地让人感受到数据的相关关系。</p>
-<div class="figure">
-<img src="./force.png" alt="force layout node" /><p class="caption">force layout node</p>
-</div>
+<figure>
+<img src="./force.png" alt="force layout node" /><figcaption>force layout node</figcaption>
+</figure>
 <h2 id="平行坐标轴">平行坐标轴</h2>
 <h3 id="peoplemov.in-io">peoplemov.in (IO)</h3>
 <p>Link: <a href="http://peoplemov.in/">http://peoplemov.in/</a></p>
 <p>适用范围：出入关系</p>
-<div class="figure">
-<img src="./movin.png" alt="People Movin" /><p class="caption">People Movin</p>
-</div>
+<figure>
+<img src="./movin.png" alt="People Movin" /><figcaption>People Movin</figcaption>
+</figure>
 <p>以线直接相连，用渐变表示这是一根相连的线。 线的粗细表示流量的大小。</p>
 <p>此展现方式亦非常适用于网站流量出入的展示。</p>
 <h3 id="worldshapin-io">worldshapin (IO)</h3>
 <p>Link: <a href="http://www.worldshap.in/#/03/US/">http://www.worldshap.in/#/03/US/</a></p>
 <p>使用范围：多维度的数据对比</p>
 <p>对于一个网站流量系统，可以将多个 site 的众多维度 访客量、驻留时间、跳出率 等因素叠在一起做一个类似的东西</p>
-<div class="figure">
-<img src="./worldshapin.png" alt="worldshapin" /><p class="caption">worldshapin</p>
-</div>
+<figure>
+<img src="./worldshapin.png" alt="worldshapin" /><figcaption>worldshapin</figcaption>
+</figure>
+<h3 id="iris-parallel">iris-parallel</h3>
+<p>Link: <a href="http://mbostock.github.io/d3/talk/20111116/iris-parallel.html">http://mbostock.github.io/d3/talk/20111116/iris-parallel.html</a></p>
+<p>能够相对清晰地表明各个坐标的多个参数高低。</p>
+<figure>
+<img src="parallel.png" alt="parallel" /><figcaption>parallel</figcaption>
+</figure>
 <h2 id="可拖动轴">可拖动轴</h2>
 <h3 id="visualizing-mbta-data-io">Visualizing MBTA Data (IO)</h3>
 <p>An interactive exploration of Boston's subway system.</p>
 <p>Link: <a href="http://mbtaviz.github.io/">http://mbtaviz.github.io/</a></p>
 <p>这是一个交通流量的例子，但是鉴于交通流量与网络流量的相似性，这个例子还是非常有参考价值的。</p>
-<div class="figure">
-<img src="./subway.png" alt="Subway Trips on Monday February 3, 2014" /><p class="caption">Subway Trips on Monday February 3, 2014</p>
-</div>
+<figure>
+<img src="./subway.png" alt="Subway Trips on Monday February 3, 2014" /><figcaption>Subway Trips on Monday February 3, 2014</figcaption>
+</figure>
 <p><code>Subway Trips on Monday February 3, 2014</code> 这个图让人印象深刻， 有非常强的数据交互联动，可以很直观的感受到数据随着时间的流动。</p>
 <p>与之类似，亦可以一个时间轴作为交互对量，另一侧放上流量情况，以小原点代表一波波的流量。 拖动时间轴就可以直观感受流量的流动。 以及，当时间轴处于非hover状态时可以以稳恒速率自动滚动之。</p>
 <p>图中圆点代表了车子的位置，亦可在实际网络流量中用用户所处的位置　入口　-&gt; 出口　各点串成一个线状球。</p>
-<div class="figure">
-<img src="./station.png" alt="Entrances and Exits per Station during February 2014" /><p class="caption">Entrances and Exits per Station during February 2014</p>
-</div>
+<figure>
+<img src="./station.png" alt="Entrances and Exits per Station during February 2014" /><figcaption>Entrances and Exits per Station during February 2014</figcaption>
+</figure>
 <p>这张图则是代表每个站点的IO情况。 右边那个Avg情况分成两排上为 input ，下为　output 。 然后以小的方格展示各个时段的情况，可以非常直观地展示一些细节情况。</p>
 <h3 id="jobs-charted-by-state-and-salary">Jobs Charted by State and Salary</h3>
 <p>Link: <a href="http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/">http://flowingdata.com/2014/07/02/jobs-charted-by-state-and-salary/</a></p>
 <p>一个数据与筛选条件轴联动的例子。</p>
-<div class="figure">
-<img src="./jobs.png" alt="Jobs" /><p class="caption">Jobs</p>
-</div>
+<figure>
+<img src="./jobs.png" alt="Jobs" /><figcaption>Jobs</figcaption>
+</figure>
 <h2 id="网络图">网络图</h2>
 <h3 id="bible-cross-references">Bible Cross-References</h3>
 <p>Link: <a href="http://www.chrisharrison.net/index.php/Visualizations/BibleViz">http://www.chrisharrison.net/index.php/Visualizations/BibleViz</a></p>
 <p>注意颜色是与章节的远近相关的。底下的灰白分隔表示章节。每一个柱对应一句话。</p>
-<div class="figure">
-<img src="./BibleVizArc7small.jpg" alt="BibleViz" /><p class="caption">BibleViz</p>
-</div>
+<figure>
+<img src="./BibleVizArc7small.jpg" alt="BibleViz" /><figcaption>BibleViz</figcaption>
+</figure>
 <h3 id="dependencywheel">DependencyWheel</h3>
 <p>Link: <a href="http://redotheweb.com/DependencyWheel/">http://redotheweb.com/DependencyWheel/</a></p>
 <p>注意悬停一会可以显示其依赖关系。</p>
-<div class="figure">
-<img src="./wheel1.png" alt="wheel1" /><p class="caption">wheel1</p>
-</div>
-<div class="figure">
-<img src="./wheel2.png" alt="wheel2" /><p class="caption">wheel2</p>
-</div>
+<figure>
+<img src="./wheel1.png" alt="wheel1" /><figcaption>wheel1</figcaption>
+</figure>
+<figure>
+<img src="./wheel2.png" alt="wheel2" /><figcaption>wheel2</figcaption>
+</figure>
+<h2 id="地图">地图</h2>
+<h3 id="dencity">Dencity</h3>
+<p>Link: <a href="http://fathom.info/dencity/">http://fathom.info/dencity/</a></p>
+<p>点的大小代表着个人的生存空间大小。</p>
+<figure>
+<img src="./dencity-for-web.jpg" alt="dencity" /><figcaption>dencity</figcaption>
+</figure>
+<h2 id="热力图">热力图</h2>
+<p><del>关于热力图，有个想法。就是不仅仅只是跟踪鼠标的点击。而是同时监听hover事件。这样可以获得鼠标的轨迹。</del> 似乎这个想法不大靠谱，劫持hover对性能的开销似乎不小而且意义并非那么大。</p>
+<h3 id="webgl热力图-5个商圈的24小时">webgl热力图-5个商圈的24小时</h3>
+<p>Link: <a href="http://datavlab.org/cat/%E5%8F%AF%E8%A7%86%E5%8C%96%E6%A1%88%E4%BE%8B/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B1%95%E7%8E%B0%E7%B1%BB%E5%9E%8B/%E7%83%AD%E5%8A%9B%E5%9B%BE">webgl热力图-5个商圈的24小时</a></p>
+<figure>
+<img src="./hot.png" alt="hotmap" /><figcaption>hotmap</figcaption>
+</figure>
 <h2 id="etc">Etc</h2>
 <h3 id="analyzing-presidential-candidates-body-language">Analyzing Presidential Candidate’s Body Language</h3>
 <p>Link: <a href="http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0">http://www.nytimes.com/interactive/2012/10/02/us/politics/what-romney-and-obamas-body-language-says-to-voters.html?hp&amp;_r=0</a></p>
 <p>手势的一个分析。</p>
-<div class="figure">
-<img src="./obama.png" alt="Obama’s Body Language" /><p class="caption">Obama’s Body Language</p>
-</div>
+<figure>
+<img src="./obama.png" alt="Obama’s Body Language" /><figcaption>Obama’s Body Language</figcaption>
+</figure>
 <h3 id="piwik">Piwik</h3>
 <p>Link: <a href="https://demo.piwik.org/index.php?module=CoreHome&amp;action=index&amp;idSite=7&amp;period=day&amp;date=yesterday#/module=Dashboard&amp;action=embeddedIndex&amp;idSite=7&amp;period=day&amp;date=yesterday&amp;idDashboard=1">https://demo.piwik.org/</a></p>
-<div class="figure">
-<img src="./piwik.png" alt="piwik" /><p class="caption">piwik</p>
-</div>
+<figure>
+<img src="./piwik.png" alt="piwik" /><figcaption>piwik</figcaption>
+</figure>
+<h3 id="calendar-view">Calendar View</h3>
+<p>Link: <a href="http://bl.ocks.org/mbostock/4063318">http://bl.ocks.org/mbostock/4063318</a></p>
+<p>类似于 Github 的 Commit 那个记录。 可以相对直观地反应较长期中各天的情况。</p>
+<figure>
+<img src="./calendar.png" alt="Calendar View" /><figcaption>Calendar View</figcaption>
+</figure>
+<h3 id="stacked-to-grouped-bars">Stacked-to-Grouped Bars</h3>
+<p>Link: <a href="http://bl.ocks.org/mbostock/3943967">http://bl.ocks.org/mbostock/3943967</a></p>
+<p>有上有 Stacked 和 Grouped 的一键切换，非常直观的。</p>
+<figure>
+<img src="./stacked.png" alt="Stacked Bars" /><figcaption>Stacked Bars</figcaption>
+</figure>
+<figure>
+<img src="./grouped.png" alt="Grouped Bars" /><figcaption>Grouped Bars</figcaption>
+</figure>
+<h3 id="streamgraph">Streamgraph</h3>
+<p>Link: <a href="http://bl.ocks.org/mbostock/4060954">http://bl.ocks.org/mbostock/4060954</a></p>
+<p>For continuous data such as time series, a streamgraph can be used in place of stacked bars.</p>
+<figure>
+<img src="./streamgraph.png" alt="Streamgraph" /><figcaption>Streamgraph</figcaption>
+</figure>
+<h3 id="les-misérables-co-occurrence-matrix-io">Les Misérables Co-occurrence (matrix) (IO)</h3>
+<p>Link: <a href="http://bost.ocks.org/mike/miserables/">http://bost.ocks.org/mike/miserables/</a></p>
+<p>一个有趣的矩阵。 嘛，切换右上角的 order 会有 transition 动画可以看。 觉得对流量分析也是挺有价值的。 有两个维度，一个可为 input，二另一个可为 output， 则相交的高亮色块可表示该条流量路径的相对流量大小。 以其流量与热力学温度正相关，然后转化为色温， 就能非常直观地感受整个的流量情况。</p>
+<figure>
+<img src="matrix.png" alt="matrix.png" /><figcaption>matrix.png</figcaption>
+</figure>
 </body>
 </html>
