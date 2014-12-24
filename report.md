@@ -1,5 +1,25 @@
 # Data Visualization Examples
 
+## 双曲线树 (Hyperbolic tree, often shortened as hypertree)
+
+这是一个基本的双曲线图，聚焦的节点被放在中心，有更多的空间。失焦的节点被压缩显示，然后放在边缘一些的位置。
+图二显示了焦点变化的情况：聚焦节点及其子孙节点移至中心。其他节点被压缩。
+这是一种 Focus + Context 的技术。
+
+![Basic hyperbolic tree](BasicTree.png)
+
+![Basic Tree Focused](BasicTreeFocused.png)
+
+一个可交互的例子（点那些小点）：[https://philogb.github.io/jit/static/v20/Jit/Examples/Hypertree/example1.html](https://philogb.github.io/jit/static/v20/Jit/Examples/Hypertree/example1.html)
+
+Links:
+
+[http://en.wikipedia.org/wiki/Hyperbolic_tree](http://en.wikipedia.org/wiki/Hyperbolic_tree)
+
+[Visualization Of Large Hierarchical Data and Implementation Of XBRL Browser](http://www.slideshare.net/wuyanna/ss-15229880)
+
+比如对于文件系统的展现，可以引入更多的 metadata，用小的 icon 表现文件类型，比如颜色深度表现文件大小之类（同时线的总深度应该由它的子孙节点决定）。
+
 ## Flow Visualization
 
 ### Energy technologies visualisation for the IEA
